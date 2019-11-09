@@ -1,0 +1,87 @@
+body{
+    margin: auto 0;
+    font-family:Arial;
+    background-color:#ffff;
+}/*Three columns side by side */
+.bg {
+  /* The image used */
+  
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .col {
+  float: center;
+  width: 55%;
+  height: 34%;
+  margin: 20px 0px 0px 17rem;
+  padding: 0 8px;
+
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin: 70px 0px 0px 7rem;
+
+  padding: 150 5px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:#000;
+  border-radius: 10px;
+}
+img {
+  border-radius: 10px;
+
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.t{
+  color: grey;
+}
+
+.title {
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}

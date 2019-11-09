@@ -1,0 +1,91 @@
+Searching 84 files for "Farmer_loaning_v2"
+
+D:\Apps\XAMPP\htdocs\LoanProj2\crop_loan\templates\header.php:
+    4  	<!-- Compiled and minified CSS -->
+    5    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    6:   <link rel="stylesheet" type="text/css" href="/Farmer_loaning_v2/index.css">
+    7    <style type="text/css">
+    8  	  .brand{
+    .
+   90  	<nav class="white z-depth-0">
+   91      <div class="main-nav">
+   92:       <a href="/Farmer_loaning_v2/crop_loan/croploan.php" class="brand-text " style="margin-left:100px;">Crop Loan </a>
+   93        <ul class="push" >
+   94:         <li><a href="/Farmer_loaning_v2/crop_loan/loans/crop.php" class="btn brand z-depth-0">Apply for a Loan</a></li>
+   95:         <li><a class="brand-text " style="margin-right: 100px ;margin-left: 50px;font-size:1.1em;" href="/Farmer_loaning_v2/index.php"> User : <?php echo $fname ?></a></li>
+   96        </ul>
+   97      </div>
+
+D:\Apps\XAMPP\htdocs\LoanProj2\dairy_loan\templates\header.php:
+    4  	<!-- Compiled and minified CSS -->
+    5    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    6:   <link rel="stylesheet" type="text/css" href="/Farmer_loaning_v2/index.css">
+    7    <style type="text/css">
+    8  	  .brand{
+    .
+   90  	<nav class="white z-depth-0">
+   91      <div class="main-nav">
+   92:       <a href="/Farmer_loaning_v2/dairy_loan/dairyloan.php" class="brand-text " style="margin-left:100px;">Dairy Loan </a>
+   93        <ul class="push" >
+   94:         <li><a href="/Farmer_loaning_v2/dairy_loan/loans/dairy.php" class="btn brand z-depth-0">Apply for a Loan</a></li>
+   95:         <li><a class="brand-text " style="margin-right: 100px ;margin-left: 50px;font-size:1.1em;" href="/Farmer_loaning_v2/index.php"> User : <?php echo $fname ?></a></li>
+   96        </ul>
+   97      </div>
+
+D:\Apps\XAMPP\htdocs\LoanProj2\fisheries_loan\templates\header.php:
+    4  	<!-- Compiled and minified CSS -->
+    5    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    6:   <link rel="stylesheet" type="text/css" href="/Farmer_loaning_v2/index.css">
+    7    <style type="text/css">
+    8  	  .brand{
+    .
+   90  	<nav class="white z-depth-0">
+   91      <div class="main-nav">
+   92:       <a href="/Farmer_loaning_v2/fisheies_loan/fisheriesloan.php" class="brand-text " style="margin-left:100px;">Fisheries Loan </a>
+   93        <ul class="push" >
+   94:         <li><a href="/Farmer_loaning_v2/fisheries_loan/loans/fisheries.php" class="btn brand z-depth-0">Apply for a Loan</a></li>
+   95:         <li><a class="brand-text " style="margin-right: 100px ;margin-left: 50px;font-size:1.1em;" href="/Farmer_loaning_v2/index.php"> User : <?php echo $fname ?></a></li>
+   96        </ul>
+   97      </div>
+
+D:\Apps\XAMPP\htdocs\LoanProj2\index.php:
+   57  
+   58    <div class="blue grid-wrapper">
+   59:   	      <a href="/Farmer_loaning_v2/crop_loan/croploan.php"><div class="box zone "><img src="./img/crop.jpg"><h2>Crop Loan</h2>
+   60                                                           <p>The loan covers the crop production expenses, post-harvest expenses, contingencies, etc.</p>
+   61                                                           </div></a>
+   62:   	      <a href="/Farmer_loaning_v2/tractor_loan/tractorloan.php"><div class="box zone"><img src="./img/tractor.jpg">
+   63                                             <h2>Machinary Loan</h2>
+   64                                             <p>The Loan amount will cover the cost of tractor, accessories, implements, insurance and registration expenses.</p>
+   65                       </div></a>
+   66:   	      <a href="/Farmer_loaning_v2/dairy_loan/dairyloan.php"><div class="box zone"><img src="./img/diary.jpg">
+   67                                             <h2>Dairy Loan</h2>
+   68                                             <p>The loan is provided to dairy societies for modernization and creating infrastructures .  etc.</p> 
+   69                                             </div></a>
+   70:   	      <a href="/Farmer_loaning_v2/fisheries_loan/fisheriesloan.php"><div class="box zone"><img src="./img/fisheries.jpg">
+   71                                             <h2>Fisheries Loan</h2>
+   72                                             <p>The loan is provided for buying fish seeds, fish net, and other equipment’s needed in the field</p> 
+   ..
+   77            <li><a href="https://www.india.gov.in/topics/agriculture">Agriculture | National Portal of India</a></li>
+   78            <li><a href="https://data.gov.in/keywords/farm-machinery">Products</a></li>
+   79:           <li><a href="/Farmer_loaning_v2/team1/team.html">Our Team</a></li>
+   80            <li class="push">User : <?php 
+   81                    session_start();
+
+D:\Apps\XAMPP\htdocs\LoanProj2\tractor_loan\templates\header.php:
+    4  	<!-- Compiled and minified CSS -->
+    5    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    6:   <link rel="stylesheet" type="text/css" href="/Farmer_loaning_v2/index.css">
+    7    <style type="text/css">
+    8  	  .brand{
+    .
+   90  	<nav class="white z-depth-0">
+   91      <div class="main-nav">
+   92:       <a href="/Farmer_loaning_v2/tractor_loan/tractorloan.php" class="brand-text " style="margin-left:100px;">Machinary Loan </a>
+   93        <ul class="push" >
+   94:         <li><a href="/Farmer_loaning_v2/tractor_loan/ad.php" class="btn brand z-depth-0">Apply for a Loan</a></li>
+   95:         <li><a class="brand-text " style="margin-right: 100px ;margin-left: 50px;font-size:1.1em;" href="/Farmer_loaning_v2/index.php"> User : <?php echo $fname ?></a></li>
+   96        </ul>
+   97      </div>
+
+21 matches across 5 files
